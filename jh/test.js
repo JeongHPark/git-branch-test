@@ -1,6 +1,8 @@
-var a ={
-    name : "박",
-    address : "asdasd",
-};
+let a = 1;
+let b= 2;
 
-console.log(a);
+function addNumber(a,b) {
+    return a+b;
+}
+
+console.log(addNumber(a,b));
