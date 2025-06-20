@@ -11,7 +11,7 @@
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true
   },
-  // "include": ["src/**/*"],
-  "exclude": ["node_modules", "dist"],
-  "files": ["src/index.ts"]
+  "include": ["src/service/*"], // 컴파일할 파일 포함 경로
+  "exclude": ["node_modules", "dist"] // 제외할 경로
+  // "files": ["src/asdqweqweq.ts"] // 특정 파일만 컴파일할 경우 사용
 }
