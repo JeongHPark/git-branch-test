@@ -23,6 +23,9 @@ export const generateRefreshToken = (user: UserPayload) => {
   return jwt.sign({ userId: user.id }, REFRESH_SECRET, { expiresIn: "7d" });
 };
 
+// AccessToken 검증 함수 - middleware 생략해도되고
+// RefreshToken 검증 함수
+
 // refreshToken을 기반으로 AccessToken 재발급
 export const refreshAccessToken = (req: Request, res: Response) => {
   // 프론트에서 받아온 값이다. -> AccessToken은 왜 만료되었지 여부 판단을 안하는지?

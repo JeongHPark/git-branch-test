@@ -1,5 +1,6 @@
 import { findUserByEmail } from "./userModel";
 import { generateAccessToken, generateRefreshToken } from "./tokenUtils";
+import { saveRefreshToken } from "./tokenStore";
 
 export const loginUser = async (email: string, password: string) => {
   const user = findUserByEmail(email);
@@ -9,7 +10,7 @@ export const loginUser = async (email: string, password: string) => {
 
   const accessToken = generateAccessToken(user);
   const refreshToken = generateRefreshToken(user);
-
+  saveRefreshToken(1, refreshToken);
   console.log(accessToken, refreshToken);
   return { accessToken, refreshToken };
 };
