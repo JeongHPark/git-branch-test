@@ -13,3 +13,5 @@ function minusFunc(a, b) {
 // tsconfig 쪽 파일 주석으로 설명 적어드릴게요.
 // 4번 package.json 보시면, scripts에 "npm run dev"
 // 5. include / exclude 원하는 파일만 선택해서 컴파일하기기
+
+//
