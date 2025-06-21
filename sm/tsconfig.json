@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                     // 최신 JS 기능 사용
+    "module": "commonjs",                   // Node.js와 호환
+    "rootDir": "./src",                     // 소스 파일 위치
+    "outDir": "./dist",                     // 컴파일된 JS 출력 위치
+    "strict": true,                         // 엄격한 타입 검사
+    "esModuleInterop": true,                // ES6 스타일 import 허용
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,                   // 타입 정의 라이브러리 검사 생략
+    "moduleResolution": "node",             // 모듈 경로 해석 방식
+    "resolveJsonModule": true,              // JSON import 허용
+    "allowSyntheticDefaultImports": true    // default import 호환
+  },
+  "include": ["src"],                       // 컴파일 포함 대상
+  "exclude": ["node_modules", "dist"]       // 제외 대상
+}
