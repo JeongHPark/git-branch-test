@@ -56,7 +56,7 @@ const verifyPassword = async (DBPwd: string, userPwd: string) => {
     );
 
     const hashedPassword = key.toString("base64");
-    console.log(hashPassword);
+    console.log(hashedPassword);
     if (DBPwd !== userPwd) return false;
     return true;
   } catch (err) {
