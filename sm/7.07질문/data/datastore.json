@@ -1,0 +1,39 @@
+{
+  "users": [
+    {
+      "controlUserId": 1,
+      "email": "delete@example.com",
+      "password": "$2b$10$3zSY2jzXgzMgIu44neVpVuH6Bin1tBqGQdWvyQ/6KRnW.Vl3SdzMW",
+      "nameFirst": "Test",
+      "nameLast": "User",
+      "numSuccessfulLogins": 1,
+      "numFailedPasswordsSinceLastLogin": 0,
+      "passwordHistory": [
+        "$2b$10$3zSY2jzXgzMgIu44neVpVuH6Bin1tBqGQdWvyQ/6KRnW.Vl3SdzMW"
+      ]
+    }
+  ],
+  "missions": [
+    {
+      "missionId": 2,
+      "name": "Mission 2",
+      "description": "Second mission",
+      "target": "Jupiter",
+      "ownerId": 1,
+      "controlUserId": 1,
+      "timeCreated": 1751824758,
+      "timeLastEdited": 1751824758,
+      "assignedAstronauts": []
+    }
+  ],
+  "astronauts": [],
+  "sessions": [
+    {
+      "controlUserSessionId": "4lzt37pxpcazztk1igdrir",
+      "controlUserId": 1,
+      "createdAt": 1751824758,
+      "expiresAt": 1751831958,
+      "lastActivity": 1751824758
+    }
+  ]
+}
